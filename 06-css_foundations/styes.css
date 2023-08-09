@@ -37,4 +37,5 @@ p {
 strong {
   font-weight: bolder;
   font-style: italic;
+  border-color: aqua;
 }
