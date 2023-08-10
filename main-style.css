@@ -1,0 +1,14 @@
+.class-links a:link {
+  color: coral;
+  text-decoration: none;
+}
+.class-links a:visited {
+  color: brown;
+}
+.class-links a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+.class-links a:active {
+  color: red;
+}
