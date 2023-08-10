@@ -1,0 +1,119 @@
+.page {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.synopsis {
+  color: #7e8184;
+}
+
+.button {
+  color: white;
+  background-color: #5995da;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.dangerous {
+  background-color: red;
+  font-style: italic;
+}
+
+.warning {
+  color: black;
+  background-color: rgb(235, 235, 112);
+}
+
+/* The two Selectors below are an example of Descendant Selector*/
+.synopsis em {
+  /* Decsendant selector*/
+  font-style: normal;
+}
+
+.article em {
+  color: red;
+}
+
+.kodego-website:link {
+  color: blue;
+  text-decoration: none;
+}
+
+.kodego-website:visited {
+  color: pink;
+}
+
+.kodego-website:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.kodego-website:active {
+  color: red;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5995da;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+.button:active,
+.button:visited:active {
+  color: white;
+  background-color: yellow;
+}
+
+.warning:link,
+.warning:visited {
+  font-style: italic;
+  background-color: #5995da;
+}
+
+.warning:hover,
+.warning:visited:hover {
+  background-color: #f5cf83;
+}
+
+.warning:link,
+.warning:visited:active {
+  background-color: #eeb75a;
+}
+
+#button-1 {
+  background-color: #5d6063;
+}
+.button a {
+  text-decoration: none;
+}
+.extra-exercise:link {
+  color: white;
+  text-decoration: none;
+}
+.extra-exercise:visited {
+  color: lightskyblue;
+}
+.extra-exercise:hover {
+  color: violet;
+}
+.extra-exercise:active {
+  color: orange;
+}
