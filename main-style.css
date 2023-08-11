@@ -1,3 +1,6 @@
+.class-links {
+  list-style: none;
+}
 .class-links a:link {
   color: coral;
   text-decoration: none;
