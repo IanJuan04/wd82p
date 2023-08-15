@@ -172,11 +172,9 @@ body {
   margin: 50p;
 }
 
-input,
-textarea {
+.name-bar,
+.email-bar,
+.message-bar {
   width: 500px;
-}
-
-.footer-container {
-  margin: auto;
+  background-color: transparent;
 }
