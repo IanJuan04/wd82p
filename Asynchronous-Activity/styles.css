@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #151515;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.name-title {
+  font-size: 30px;
+}
+
+.menu-images {
+  display: flex;
+  list-style-type: none;
+  gap: 1em;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding-bottom: 50px;
+}
+
+.intro-first-part {
+  padding: 80px 0 0 20px;
+}
+
+.intro {
+  font-size: 65px;
+}
+
+.name {
+  display: inline;
+  text-decoration: underline #64daa6;
+  text-decoration-thickness: 4px;
+}
+
+.intro-details {
+  font-size: 30px;
+  margin: 2em 0 2em 0;
+}
+
+.contact-btn:hover {
+  cursor: pointer;
+}
+.contact-btn {
+  font-weight: bold;
+  color: #fff;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline #64daa6;
+  text-decoration-thickness: 4px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5em;
+}
+
+.contact-btn-two {
+}
+
+.hero-content-1,
+.hero-content-2,
+.hero-content-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.hero-title {
+  font-size: 65px;
+}
+
+.hero-title-content {
+  font-size: 30px;
+}
+
+.project-title {
+  margin: 50px;
+}
+
+.contact-btn-two {
+  margin-top: 4em;
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline #64daa6;
+  text-decoration-thickness: 4px;
+  align-items: flex-end;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-column,
+.second-column {
+  padding-right: 500px;
+  margin-top: 100pxpx;
+}
+
+.dp-title,
+.twa-title,
+.mg-title,
+.elp-title,
+.ewa-title,
+.ags-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dp,
+.twa,
+.mg,
+.elp,
+.ewa,
+.ags {
+  margin: 4em 0;
+}
+
+.paragraphs {
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vp-btn,
+.vc-btn :hover {
+  cursor: pointer;
+}
+
+.vp-btn,
+.vc-btn {
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline #64daa6;
+  text-decoration-thickness: 4px;
+}
