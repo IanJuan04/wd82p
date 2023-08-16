@@ -202,8 +202,8 @@ body {
 
 .snd-btn {
   text-underline-offset: 1em;
-  display: flex;
-  justify-self: end;
+  display: grid;
+  justify-content: right;
   margin-top: 30px;
   font-weight: bold;
   font-size: 15px;
