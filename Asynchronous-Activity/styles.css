@@ -41,6 +41,7 @@ body {
 }
 
 .name {
+  text-underline-offset: 10px;
   display: inline;
   text-decoration: underline #64daa6;
   text-decoration-thickness: 4px;
@@ -55,6 +56,7 @@ body {
   cursor: pointer;
 }
 .contact-btn {
+  text-underline-offset: 10px;
   font-weight: bold;
   color: #fff;
   font-size: 30px;
@@ -68,9 +70,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding-top: 5em;
-}
-
-.contact-btn-two {
 }
 
 .hero-content-1,
@@ -97,6 +96,7 @@ body {
   cursor: pointer;
 }
 .contact-btn-two {
+  text-underline-offset: 1em;
   margin-top: 4em;
   font-weight: bold;
   color: #fff;
@@ -150,6 +150,7 @@ body {
 
 .vp-btn,
 .vc-btn {
+  text-underline-offset: 1em;
   font-weight: bold;
   font-size: 15px;
   color: #fff;
@@ -159,22 +160,67 @@ body {
   text-decoration-thickness: 4px;
 }
 
-.contact-container,
-.footer-container {
+.contact-container {
   background-color: #242424;
 }
 
 .contact-content {
   display: flex;
   justify-content: space-between;
+  padding: 20px 50px 0 30px;
 }
-.article-content .aside-content {
-  margin: 50p;
+
+.contact-title {
+  font-size: 65px;
+  padding: 20px 0;
+}
+
+.contact-details {
+  padding-right: 200px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.aside-content {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .name-bar,
-.email-bar,
-.message-bar {
-  width: 500px;
+.email-bar {
   background-color: transparent;
+}
+
+.message-bar {
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.snd-btn {
+  text-underline-offset: 1em;
+  display: flex;
+  justify-self: end;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline #64daa6;
+  text-decoration-thickness: 4px;
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-container {
+  padding-bottom: 1em;
+  background-color: #242424;
+}
+.menu {
+  align-items: center;
 }
