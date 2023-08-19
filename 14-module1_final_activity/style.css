@@ -81,9 +81,6 @@
   align-items: center;
 }
 
-.header-bottom {
-}
-
 .search-container {
   display: flex;
   align-items: center;
@@ -182,6 +179,9 @@
   grid-template-columns: 1fr 1fr;
   margin-top: 1em;
   gap: 1em;
+
+  height: 70%;
+  overflow: scroll;
 }
 
 .important {
