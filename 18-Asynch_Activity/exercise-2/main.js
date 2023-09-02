@@ -1,6 +1,6 @@
-let testScore1 = 85;
-let testScore2 = 91;
-let testScore = 89;
-let averageScore = 88.33;
+let testScore1 = 92;
+let testScore2 = 85.6;
+let testScore3 = 72.5;
+let averageScore = Math.round((testScore1 + testScore2 + testScore3) / 3);
 
-console.log(Math.round(averageScore));
+console.log(averageScore);
