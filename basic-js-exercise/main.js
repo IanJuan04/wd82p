@@ -8,16 +8,15 @@ console.log(addNumbers(4, 23));
 
 // Problem 2
 
-function factorialize(num) {
-  if (num < 0) {
-    return -1;
-  } else if (num === 0) {
-    return 1;
-  } else {
-    return num * factorialize(num - 1);
-  }
+function factorial(n) {
+  if (n === 0 || n === 1) return 1;
+
+  let result = 1;
+
+  for (let i = 1; 1 <= n; i++) result * i;
+  return result;
 }
-console.log(factorialize(5));
+console.log(factorial(8));
 
 // Problem 3
 
