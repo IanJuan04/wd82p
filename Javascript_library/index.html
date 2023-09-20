@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="root">
+      <header class="header">
+        <h1>Library Webapp</h1>
+        <p>A simple library webapp built with HTML, CSS, and Javascript.</p>
+      </header>
+
+      <hr />
+
+      <main id="main" class="main">
+        <article class="book">
+          <h2 class="book-title">Harry Potter</h2>
+          <p class="book-author">JK ROwling</p>
+          <p class="book-pages">250</p>
+        </article>
+        <button id="open-modal" class="add-btn">+</button>
+      </main>
+
+      <div id="modal" class="modal">
+        <form class="modal-container" action="">
+          <h2>Add New book</h2>
+          <input id="title" type="text" placeholder="Title" required />
+          <input id="author" type="text" placeholder="Author" require />
+          <input id="pages" type="text" placeholder="Pages" require />
+          <button id="add-book-btn" type="submit">Add</button>
+          <button id="close-modal-btn" type="button">Cancel</button>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
