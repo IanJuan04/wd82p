@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="root">
+      <header class="header">
+        <h1>AMovies</h1>
+      </header>
+
+      <main class="movie-container">
+        <div class="genre">
+          <section class="action-genre">
+            <h2>Action</h2>
+            <section>
+              <article class="action-movie-container">
+                <h3 class="amovie-title">Movie Title</h3>
+                <p class="amovie-year">Year</p>
+              </article>
+            </section>
+          </section>
+
+          <hr />
+
+          <section class="fantasy-genre">
+            <h2>Fantasy</h2>
+            <section>
+              <article class="fantasy-movie-container">
+                <h3 class="fmovie-title">Movie Title</h3>
+                <p class="fmovie-year">Year</p>
+              </article>
+            </section>
+          </section>
+
+          <hr />
+
+          <section class="horror-genre">
+            <h2>Horror</h2>
+            <section>
+              <article class="horror-movie-container">
+                <h3 class="hmovie-title">Movie Title</h3>
+                <p class="hmovie-year">Year</p>
+              </article>
+            </section>
+          </section>
+
+          <hr />
+
+          <section class="scifi-genre">
+            <h2>Sci-Fi</h2>
+            <section>
+              <article class="scifi-movie-container">
+                <h3 class="smovie-title">Movie Title</h3>
+                <p class="smovie-year">Year</p>
+              </article>
+            </section>
+          </section>
+        </div>
+        <div id="open-modal" class="open-modal">
+          <i class="fa-solid fa-circle-plus"></i>
+        </div>
+      </main>
+
+      <div id="modal" class="modal">
+        <form class="modal-container" action="">
+          <h2>Add New Movie</h2>
+          <input id="title" type="text" placeholder="Title" required />
+          <input id="year" type="text" placeholder="Year" require />
+
+          <button id="add-action-btn" type="submit">Action</button>
+          <button id="add-fantasy-btn" type="submit">Fantasy</button>
+          <button id="add-horror-btn" type="submit">Horror</button>
+          <button id="add-scifi-btn" type="submit">Sci-Fi</button>
+          <button class="close-modal-btn" id="close-modal-btn" type="button">
+            Cancel
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
