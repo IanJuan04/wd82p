@@ -50,7 +50,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding: 1em;
-  gap: 1em;
+  gap: 0.5em;
 }
 
 .action-movie-container,
