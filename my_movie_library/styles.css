@@ -34,8 +34,11 @@ body {
   color: #ededed;
   font-size: 32px;
 }
-.genre article {
-  background-color: #ededed;
+.action-movie-container,
+.fantasy-movie-container,
+.horror-movie-container,
+.scifi-movie-container {
+  background-color: darkgrey;
   height: 250px;
   width: 180px;
 }
@@ -46,6 +49,8 @@ body {
 .scifi-genre section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  padding: 1em;
+  gap: 1em;
 }
 
 .action-movie-container,
